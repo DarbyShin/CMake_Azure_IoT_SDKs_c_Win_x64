@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\amqp_definitions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\amqp_frame_codec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\amqp_management.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\amqpvalue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\amqpvalue_to_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\async_operation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\cbs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\connection.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\frame_codec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\header_detect_io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\link.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\message.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\message_receiver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\message_sender.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\messaging.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\sasl_anonymous.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\sasl_frame_codec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\sasl_mechanism.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\sasl_server_mechanism.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\sasl_mssbcbs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\sasl_plain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\saslclientio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\session.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\uamqp\src\socket_listener_win32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\amqp_definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\amqp_frame_codec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\amqp_management.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\amqp_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\amqpvalue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\amqpvalue_to_string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\async_operation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\cbs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\connection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\frame_codec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\header_detect_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\link.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\message_receiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\message_sender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\messaging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\sasl_anonymous.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\sasl_frame_codec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\sasl_mechanism.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\sasl_server_mechanism.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\sasl_mssbcbs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\sasl_plain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\saslclientio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\sasl_server_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\server_protocol_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\session.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\socket_listener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\uamqp\inc\azure_uamqp_c\uamqp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\AzureIoTSDKs\uamqp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C58549BE-13CA-3744-9B2D-054E1A3199AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{291F76CA-0330-39F2-BD0D-31637EE20E47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

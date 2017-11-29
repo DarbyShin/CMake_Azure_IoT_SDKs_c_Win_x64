@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\AzureIoTSDKs\deps\parson\parson.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\iothub_service_client\src\iothub_registrymanager.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\iothub_service_client\src\iothub_messaging.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\iothub_service_client\src\iothub_messaging_ll.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\iothub_service_client\src\iothub_devicetwin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\iothub_service_client\src\iothub_devicemethod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\iothub_service_client\src\iothub_service_client_auth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\iothub_service_client\src\iothub_sc_version.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\iothub_client\src\iothub_message.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\AzureIoTSDKs\deps\parson\parson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\iothub_service_client\inc\iothub_registrymanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\iothub_service_client\inc\iothub_messaging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\iothub_service_client\inc\iothub_messaging_ll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\iothub_service_client\inc\iothub_devicetwin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\iothub_service_client\inc\iothub_devicemethod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\iothub_service_client\inc\iothub_service_client_auth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\iothub_service_client\inc\iothub_sc_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\iothub_client\inc\iothub_message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\AzureIoTSDKs\iothub_service_client\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C58549BE-13CA-3744-9B2D-054E1A3199AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{291F76CA-0330-39F2-BD0D-31637EE20E47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

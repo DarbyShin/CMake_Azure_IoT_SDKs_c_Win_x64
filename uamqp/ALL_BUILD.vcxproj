@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0A57D2F1-E84A-3496-A8E4-913A4AB34F4F}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\uamqp\deps\azure-c-shared-utility\inc;C:\AzureIoTSDKs\uamqp\inc;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\uamqp\deps\azure-c-shared-utility\inc;C:\AzureIoTSDKs\uamqp\inc;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\uamqp\deps\azure-c-shared-utility\inc;C:\AzureIoTSDKs\uamqp\inc;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\uamqp\deps\azure-c-shared-utility\inc;C:\AzureIoTSDKs\uamqp\inc;\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\AzureIoTSDKs\uamqp\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/AzureIoTSDKs/uamqp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/AzureIoTSDKs -BC:/CMake_SDKs_x64 --check-stamp-file C:/CMake_SDKs_x64/uamqp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/AzureIoTSDKs/uamqp/CMakeLists.txt;C:\AzureIoTSDKs\uamqp\CMakeLists.txt;C:\AzureIoTSDKs\uamqp\deps\azure-c-shared-utility\configs\azure_iot_build_rules.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\AzureIoTSDKs\uamqp\dependencies.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\AzureIoTSDKs\uamqp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\CMake_SDKs_x64\uamqp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/AzureIoTSDKs/uamqp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/AzureIoTSDKs -BC:/CMake_SDKs_x64 --check-stamp-file C:/CMake_SDKs_x64/uamqp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/AzureIoTSDKs/uamqp/CMakeLists.txt;C:\AzureIoTSDKs\uamqp\CMakeLists.txt;C:\AzureIoTSDKs\uamqp\deps\azure-c-shared-utility\configs\azure_iot_build_rules.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\AzureIoTSDKs\uamqp\dependencies.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\AzureIoTSDKs\uamqp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\CMake_SDKs_x64\uamqp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/AzureIoTSDKs/uamqp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/AzureIoTSDKs -BC:/CMake_SDKs_x64 --check-stamp-file C:/CMake_SDKs_x64/uamqp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/AzureIoTSDKs/uamqp/CMakeLists.txt;C:\AzureIoTSDKs\uamqp\CMakeLists.txt;C:\AzureIoTSDKs\uamqp\deps\azure-c-shared-utility\configs\azure_iot_build_rules.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\AzureIoTSDKs\uamqp\dependencies.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\AzureIoTSDKs\uamqp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\CMake_SDKs_x64\uamqp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/AzureIoTSDKs/uamqp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/AzureIoTSDKs -BC:/CMake_SDKs_x64 --check-stamp-file C:/CMake_SDKs_x64/uamqp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/AzureIoTSDKs/uamqp/CMakeLists.txt;C:\AzureIoTSDKs\uamqp\CMakeLists.txt;C:\AzureIoTSDKs\uamqp\deps\azure-c-shared-utility\configs\azure_iot_build_rules.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\AzureIoTSDKs\uamqp\dependencies.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\AzureIoTSDKs\uamqp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\CMake_SDKs_x64\uamqp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\CMake_SDKs_x64\ZERO_CHECK.vcxproj">
+      <Project>{96662A91-9BBF-3D7E-91BF-53BF9E056B8D}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CMake_SDKs_x64\uamqp\samples\eh_sender_with_sas_token_sample\eh_sender_with_sas_token_sample.vcxproj">
+      <Project>{C91C0289-B697-3C4A-ABCE-E17E4CBC3D1B}</Project>
+      <Name>eh_sender_with_sas_token_sample</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CMake_SDKs_x64\uamqp\samples\local_client_sample\local_client_sample.vcxproj">
+      <Project>{E4BDBE8A-B15A-3F80-BF2C-1DA2EEF10CA5}</Project>
+      <Name>local_client_sample</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CMake_SDKs_x64\uamqp\samples\local_server_sample\local_server_sample.vcxproj">
+      <Project>{A90D14A5-8A71-36E4-B6E3-BEA9E2296A6D}</Project>
+      <Name>local_server_sample</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CMake_SDKs_x64\uamqp\samples\local_server_tls_sample\local_server_tls_sample.vcxproj">
+      <Project>{99BA0F59-D231-30F4-8E52-BC032922DBB9}</Project>
+      <Name>local_server_tls_sample</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CMake_SDKs_x64\uamqp\samples\message_receiver_sample\message_receiver_sample.vcxproj">
+      <Project>{41C13956-0137-3E69-B996-3534355B83DF}</Project>
+      <Name>message_receiver_sample</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CMake_SDKs_x64\uamqp\samples\message_sender_sample\message_sender_sample.vcxproj">
+      <Project>{D665E50B-6747-354A-820E-E7B44BEEA035}</Project>
+      <Name>message_sender_sample</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CMake_SDKs_x64\uamqp\samples\mssbcbs_sample\mssbcbs_sample.vcxproj">
+      <Project>{5303D8E4-8EC6-3781-9895-2F8FE5BE309B}</Project>
+      <Name>mssbcbs_sample</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CMake_SDKs_x64\uamqp\uamqp.vcxproj">
+      <Project>{70C5EA07-7E20-3EDF-9788-0D26433F6CB0}</Project>
+      <Name>uamqp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CMake_SDKs_x64\uamqp\samples\websockets_sample\websockets_sample.vcxproj">
+      <Project>{74C43F08-64F1-338F-846A-4ED0D571E7C3}</Project>
+      <Name>websockets_sample</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

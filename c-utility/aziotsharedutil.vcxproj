@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{28E7422B-4306-3A04-BEC8-68A61308D7D2}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>aziotsharedutil</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\CMake_SDKs_x64\c-utility\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">aziotsharedutil.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">aziotsharedutil</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\CMake_SDKs_x64\c-utility\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">aziotsharedutil.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">aziotsharedutil</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\CMake_SDKs_x64\c-utility\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">aziotsharedutil.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">aziotsharedutil</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\CMake_SDKs_x64\c-utility\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">aziotsharedutil.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">aziotsharedutil</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\c-utility\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4232</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;ARCHITECTURE_x86_64=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;ARCHITECTURE_x86_64=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\c-utility\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\c-utility\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\c-utility\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4232</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;ARCHITECTURE_x86_64=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;ARCHITECTURE_x86_64=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\c-utility\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\c-utility\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\c-utility\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4232</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;ARCHITECTURE_x86_64=1;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;ARCHITECTURE_x86_64=1;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\c-utility\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\c-utility\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\c-utility\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4232</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;ARCHITECTURE_x86_64=1;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;ARCHITECTURE_x86_64=1;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\c-utility\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\c-utility\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\AzureIoTSDKs\c-utility\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/AzureIoTSDKs/c-utility/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/AzureIoTSDKs -BC:/CMake_SDKs_x64 --check-stamp-file C:/CMake_SDKs_x64/c-utility/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/AzureIoTSDKs/c-utility/CMakeLists.txt;C:\AzureIoTSDKs\c-utility\CMakeLists.txt;C:\AzureIoTSDKs\c-utility\configs\azure_iot_build_rules.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\AzureIoTSDKs\c-utility\configs\azure_c_shared_utilityFunctions.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\AzureIoTSDKs\c-utility\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\CMake_SDKs_x64\c-utility\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/AzureIoTSDKs/c-utility/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/AzureIoTSDKs -BC:/CMake_SDKs_x64 --check-stamp-file C:/CMake_SDKs_x64/c-utility/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/AzureIoTSDKs/c-utility/CMakeLists.txt;C:\AzureIoTSDKs\c-utility\CMakeLists.txt;C:\AzureIoTSDKs\c-utility\configs\azure_iot_build_rules.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\AzureIoTSDKs\c-utility\configs\azure_c_shared_utilityFunctions.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\AzureIoTSDKs\c-utility\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\CMake_SDKs_x64\c-utility\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/AzureIoTSDKs/c-utility/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/AzureIoTSDKs -BC:/CMake_SDKs_x64 --check-stamp-file C:/CMake_SDKs_x64/c-utility/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/AzureIoTSDKs/c-utility/CMakeLists.txt;C:\AzureIoTSDKs\c-utility\CMakeLists.txt;C:\AzureIoTSDKs\c-utility\configs\azure_iot_build_rules.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\AzureIoTSDKs\c-utility\configs\azure_c_shared_utilityFunctions.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\AzureIoTSDKs\c-utility\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\CMake_SDKs_x64\c-utility\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/AzureIoTSDKs/c-utility/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/AzureIoTSDKs -BC:/CMake_SDKs_x64 --check-stamp-file C:/CMake_SDKs_x64/c-utility/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/AzureIoTSDKs/c-utility/CMakeLists.txt;C:\AzureIoTSDKs\c-utility\CMakeLists.txt;C:\AzureIoTSDKs\c-utility\configs\azure_iot_build_rules.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\AzureIoTSDKs\c-utility\configs\azure_c_shared_utilityFunctions.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\AzureIoTSDKs\c-utility\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\CMake_SDKs_x64\c-utility\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\base32.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\base64.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\buffer.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\connection_string_parser.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\constbuffer.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\consolelogger.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\crt_abstractions.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\constmap.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\doublylinkedlist.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\gballoc.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\gb_stdio.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\gb_time.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\gb_rand.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\hmac.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\hmacsha256.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\http_proxy_io.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\xio.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\singlylinkedlist.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\map.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\sastoken.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\sha1.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\sha224.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\sha384-512.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\strings.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\string_tokenizer.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\uuid.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\urlencode.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\usha.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\vector.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\xlogging.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\optionhandler.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\adapters\agenttime.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\adapters\condition_win32.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\adapters\lock_win32.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\adapters\platform_win32.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\adapters\socketio_win32.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\adapters\tickcounter_win32.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\adapters\threadapi_win32.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\adapters\uniqueid_win32.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\httpapiex.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\httpapiexsas.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\httpheaders.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\adapters\httpapi_winhttp.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\tlsio_schannel.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\x509_schannel.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\wsio.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\uws_client.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\uws_frame_encoder.c"  />
+    <ClCompile Include="C:\AzureIoTSDKs\c-utility\src\utf8_checker.c"  />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\agenttime.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\base32.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\base64.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\buffer_.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\connection_string_parser.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\crt_abstractions.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\constmap.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\condition.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\consolelogger.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\doublylinkedlist.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\gballoc.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\gb_stdio.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\gb_time.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\gb_rand.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\hmac.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\hmacsha256.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\http_proxy_io.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\singlylinkedlist.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\lock.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\macro_utils.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\map.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\optimize_size.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\platform.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\refcount.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\sastoken.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\sha-private.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\shared_util_options.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\sha.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\socketio.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\stdint_ce6.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\strings.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\strings_types.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\string_tokenizer.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\string_tokenizer_types.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\tickcounter.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\threadapi.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\xio.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\umock_c_prod.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\uniqueid.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\uuid.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\urlencode.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\vector.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\vector_types.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\vector_types_internal.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\xlogging.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\constbuffer.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\tlsio.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\optionhandler.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\wsio.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\uws_client.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\uws_frame_encoder.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\utf8_checker.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\httpapi.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\httpapiex.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\httpapiexsas.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\httpheaders.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\tlsio_schannel.h" />
+    <ClInclude Include="C:\AzureIoTSDKs\c-utility\inc\azure_c_shared_utility\x509_schannel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\CMake_SDKs_x64\ZERO_CHECK.vcxproj">
+      <Project>{96662A91-9BBF-3D7E-91BF-53BF9E056B8D}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

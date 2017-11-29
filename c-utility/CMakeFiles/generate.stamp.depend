@@ -1,0 +1,17 @@
+# CMake generation dependency list for this directory.
+C:/AzureIoTSDKs/c-utility/CMakeLists.txt
+C:/AzureIoTSDKs/c-utility/configs/azure_iot_build_rules.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CTest.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CTestUseLaunchers.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CTestTargets.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/DartConfiguration.tcl.in
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeConfigurableFile.in
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeConfigurableFile.in
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeConfigurableFile.in
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/AzureIoTSDKs/c-utility/configs/azure_c_shared_utilityFunctions.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/GNUInstallDirs.cmake

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\AzureIoTSDKs\deps\uhttp\src\uhttp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\AzureIoTSDKs\deps\uhttp\inc\azure_uhttp_c\uhttp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\AzureIoTSDKs\deps\uhttp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C58549BE-13CA-3744-9B2D-054E1A3199AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{291F76CA-0330-39F2-BD0D-31637EE20E47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

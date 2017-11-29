@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\AzureIoTSDKs\umqtt\src\mqtt_client.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\umqtt\src\mqtt_codec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AzureIoTSDKs\umqtt\src\mqtt_message.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\AzureIoTSDKs\umqtt\inc\azure_umqtt_c\mqtt_client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\umqtt\inc\azure_umqtt_c\mqtt_codec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\umqtt\inc\azure_umqtt_c\mqttconst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AzureIoTSDKs\umqtt\inc\azure_umqtt_c\mqtt_message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\AzureIoTSDKs\umqtt\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C58549BE-13CA-3744-9B2D-054E1A3199AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{291F76CA-0330-39F2-BD0D-31637EE20E47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

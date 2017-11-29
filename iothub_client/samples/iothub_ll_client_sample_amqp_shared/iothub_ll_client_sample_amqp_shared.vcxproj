@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{99289C5A-9009-330C-B98C-8A261E5C0E78}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>iothub_ll_client_sample_amqp_shared</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\CMake_SDKs_x64\iothub_client\samples\iothub_ll_client_sample_amqp_shared\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">iothub_ll_client_sample_amqp_shared.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">iothub_ll_client_sample_amqp_shared</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\CMake_SDKs_x64\iothub_client\samples\iothub_ll_client_sample_amqp_shared\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">iothub_ll_client_sample_amqp_shared.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">iothub_ll_client_sample_amqp_shared</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\CMake_SDKs_x64\iothub_client\samples\iothub_ll_client_sample_amqp_shared\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">iothub_ll_client_sample_amqp_shared.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">iothub_ll_client_sample_amqp_shared</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\CMake_SDKs_x64\iothub_client\samples\iothub_ll_client_sample_amqp_shared\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">iothub_ll_client_sample_amqp_shared.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">iothub_ll_client_sample_amqp_shared</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\iothub_client\..\deps\parson;C:\AzureIoTSDKs\deps\uhttp\deps\c-utility\inc;C:\AzureIoTSDKs\iothub_client\inc;C:\AzureIoTSDKs\uamqp\inc;C:\AzureIoTSDKs\umqtt\inc;C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4232</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;ARCHITECTURE_x86_64=1;GB_MEASURE_MEMORY_FOR_THIS;GB_DEBUG_ALLOC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;ARCHITECTURE_x86_64=1;GB_MEASURE_MEMORY_FOR_THIS;GB_DEBUG_ALLOC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\iothub_client\..\deps\parson;C:\AzureIoTSDKs\deps\uhttp\deps\c-utility\inc;C:\AzureIoTSDKs\iothub_client\inc;C:\AzureIoTSDKs\uamqp\inc;C:\AzureIoTSDKs\umqtt\inc;C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\iothub_client\..\deps\parson;C:\AzureIoTSDKs\deps\uhttp\deps\c-utility\inc;C:\AzureIoTSDKs\iothub_client\inc;C:\AzureIoTSDKs\uamqp\inc;C:\AzureIoTSDKs\umqtt\inc;C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\Debug\iothub_client.lib;..\..\Debug\iothub_client_amqp_transport.lib;..\..\..\c-utility\Debug\aziotsharedutil.lib;..\..\..\uamqp\Debug\uamqp.lib;..\..\..\c-utility\Debug\aziotsharedutil.lib;ws2_32.lib;secur32.lib;..\..\Debug\iothub_client_http_transport.lib;..\..\Debug\iothub_client_amqp_ws_transport.lib;..\..\Debug\iothub_client_mqtt_transport.lib;..\..\Debug\iothub_client_mqtt_ws_transport.lib;..\..\..\umqtt\Debug\umqtt.lib;..\..\..\c-utility\Debug\aziotsharedutil.lib;crypt32.lib;winhttp.lib;crypt32.lib;winhttp.lib;ws2_32.lib;secur32.lib;advapi32.lib;ncrypt.lib;rpcrt4.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/CMake_SDKs_x64/iothub_client/samples/iothub_ll_client_sample_amqp_shared/Debug/iothub_ll_client_sample_amqp_shared.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/CMake_SDKs_x64/iothub_client/samples/iothub_ll_client_sample_amqp_shared/Debug/iothub_ll_client_sample_amqp_shared.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\iothub_client\..\deps\parson;C:\AzureIoTSDKs\deps\uhttp\deps\c-utility\inc;C:\AzureIoTSDKs\iothub_client\inc;C:\AzureIoTSDKs\uamqp\inc;C:\AzureIoTSDKs\umqtt\inc;C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4232</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;ARCHITECTURE_x86_64=1;GB_MEASURE_MEMORY_FOR_THIS;GB_DEBUG_ALLOC;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;ARCHITECTURE_x86_64=1;GB_MEASURE_MEMORY_FOR_THIS;GB_DEBUG_ALLOC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\iothub_client\..\deps\parson;C:\AzureIoTSDKs\deps\uhttp\deps\c-utility\inc;C:\AzureIoTSDKs\iothub_client\inc;C:\AzureIoTSDKs\uamqp\inc;C:\AzureIoTSDKs\umqtt\inc;C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\iothub_client\..\deps\parson;C:\AzureIoTSDKs\deps\uhttp\deps\c-utility\inc;C:\AzureIoTSDKs\iothub_client\inc;C:\AzureIoTSDKs\uamqp\inc;C:\AzureIoTSDKs\umqtt\inc;C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\Release\iothub_client.lib;..\..\Release\iothub_client_amqp_transport.lib;..\..\..\c-utility\Release\aziotsharedutil.lib;..\..\..\uamqp\Release\uamqp.lib;..\..\..\c-utility\Release\aziotsharedutil.lib;ws2_32.lib;secur32.lib;..\..\Release\iothub_client_http_transport.lib;..\..\Release\iothub_client_amqp_ws_transport.lib;..\..\Release\iothub_client_mqtt_transport.lib;..\..\Release\iothub_client_mqtt_ws_transport.lib;..\..\..\umqtt\Release\umqtt.lib;..\..\..\c-utility\Release\aziotsharedutil.lib;crypt32.lib;winhttp.lib;crypt32.lib;winhttp.lib;ws2_32.lib;secur32.lib;advapi32.lib;ncrypt.lib;rpcrt4.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/CMake_SDKs_x64/iothub_client/samples/iothub_ll_client_sample_amqp_shared/Release/iothub_ll_client_sample_amqp_shared.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/CMake_SDKs_x64/iothub_client/samples/iothub_ll_client_sample_amqp_shared/Release/iothub_ll_client_sample_amqp_shared.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\iothub_client\..\deps\parson;C:\AzureIoTSDKs\deps\uhttp\deps\c-utility\inc;C:\AzureIoTSDKs\iothub_client\inc;C:\AzureIoTSDKs\uamqp\inc;C:\AzureIoTSDKs\umqtt\inc;C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4232</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;ARCHITECTURE_x86_64=1;GB_MEASURE_MEMORY_FOR_THIS;GB_DEBUG_ALLOC;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;ARCHITECTURE_x86_64=1;GB_MEASURE_MEMORY_FOR_THIS;GB_DEBUG_ALLOC;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\iothub_client\..\deps\parson;C:\AzureIoTSDKs\deps\uhttp\deps\c-utility\inc;C:\AzureIoTSDKs\iothub_client\inc;C:\AzureIoTSDKs\uamqp\inc;C:\AzureIoTSDKs\umqtt\inc;C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\iothub_client\..\deps\parson;C:\AzureIoTSDKs\deps\uhttp\deps\c-utility\inc;C:\AzureIoTSDKs\iothub_client\inc;C:\AzureIoTSDKs\uamqp\inc;C:\AzureIoTSDKs\umqtt\inc;C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\MinSizeRel\iothub_client.lib;..\..\MinSizeRel\iothub_client_amqp_transport.lib;..\..\..\c-utility\MinSizeRel\aziotsharedutil.lib;..\..\..\uamqp\MinSizeRel\uamqp.lib;..\..\..\c-utility\MinSizeRel\aziotsharedutil.lib;ws2_32.lib;secur32.lib;..\..\MinSizeRel\iothub_client_http_transport.lib;..\..\MinSizeRel\iothub_client_amqp_ws_transport.lib;..\..\MinSizeRel\iothub_client_mqtt_transport.lib;..\..\MinSizeRel\iothub_client_mqtt_ws_transport.lib;..\..\..\umqtt\MinSizeRel\umqtt.lib;..\..\..\c-utility\MinSizeRel\aziotsharedutil.lib;crypt32.lib;winhttp.lib;crypt32.lib;winhttp.lib;ws2_32.lib;secur32.lib;advapi32.lib;ncrypt.lib;rpcrt4.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/CMake_SDKs_x64/iothub_client/samples/iothub_ll_client_sample_amqp_shared/MinSizeRel/iothub_ll_client_sample_amqp_shared.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/CMake_SDKs_x64/iothub_client/samples/iothub_ll_client_sample_amqp_shared/MinSizeRel/iothub_ll_client_sample_amqp_shared.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\iothub_client\..\deps\parson;C:\AzureIoTSDKs\deps\uhttp\deps\c-utility\inc;C:\AzureIoTSDKs\iothub_client\inc;C:\AzureIoTSDKs\uamqp\inc;C:\AzureIoTSDKs\umqtt\inc;C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4232</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;ARCHITECTURE_x86_64=1;GB_MEASURE_MEMORY_FOR_THIS;GB_DEBUG_ALLOC;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;ARCHITECTURE_x86_64=1;GB_MEASURE_MEMORY_FOR_THIS;GB_DEBUG_ALLOC;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\iothub_client\..\deps\parson;C:\AzureIoTSDKs\deps\uhttp\deps\c-utility\inc;C:\AzureIoTSDKs\iothub_client\inc;C:\AzureIoTSDKs\uamqp\inc;C:\AzureIoTSDKs\umqtt\inc;C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AzureIoTSDKs\iothub_client\..\deps\parson;C:\AzureIoTSDKs\deps\uhttp\deps\c-utility\inc;C:\AzureIoTSDKs\iothub_client\inc;C:\AzureIoTSDKs\uamqp\inc;C:\AzureIoTSDKs\umqtt\inc;C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\RelWithDebInfo\iothub_client.lib;..\..\RelWithDebInfo\iothub_client_amqp_transport.lib;..\..\..\c-utility\RelWithDebInfo\aziotsharedutil.lib;..\..\..\uamqp\RelWithDebInfo\uamqp.lib;..\..\..\c-utility\RelWithDebInfo\aziotsharedutil.lib;ws2_32.lib;secur32.lib;..\..\RelWithDebInfo\iothub_client_http_transport.lib;..\..\RelWithDebInfo\iothub_client_amqp_ws_transport.lib;..\..\RelWithDebInfo\iothub_client_mqtt_transport.lib;..\..\RelWithDebInfo\iothub_client_mqtt_ws_transport.lib;..\..\..\umqtt\RelWithDebInfo\umqtt.lib;..\..\..\c-utility\RelWithDebInfo\aziotsharedutil.lib;crypt32.lib;winhttp.lib;crypt32.lib;winhttp.lib;ws2_32.lib;secur32.lib;advapi32.lib;ncrypt.lib;rpcrt4.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/CMake_SDKs_x64/iothub_client/samples/iothub_ll_client_sample_amqp_shared/RelWithDebInfo/iothub_ll_client_sample_amqp_shared.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/CMake_SDKs_x64/iothub_client/samples/iothub_ll_client_sample_amqp_shared/RelWithDebInfo/iothub_ll_client_sample_amqp_shared.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/AzureIoTSDKs/iothub_client/samples/iothub_ll_client_sample_amqp_shared/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/AzureIoTSDKs -BC:/CMake_SDKs_x64 --check-stamp-file C:/CMake_SDKs_x64/iothub_client/samples/iothub_ll_client_sample_amqp_shared/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/AzureIoTSDKs/iothub_client/samples/iothub_ll_client_sample_amqp_shared/CMakeLists.txt;C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\CMakeLists.txt;C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\CMake_SDKs_x64\iothub_client\samples\iothub_ll_client_sample_amqp_shared\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/AzureIoTSDKs/iothub_client/samples/iothub_ll_client_sample_amqp_shared/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/AzureIoTSDKs -BC:/CMake_SDKs_x64 --check-stamp-file C:/CMake_SDKs_x64/iothub_client/samples/iothub_ll_client_sample_amqp_shared/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/AzureIoTSDKs/iothub_client/samples/iothub_ll_client_sample_amqp_shared/CMakeLists.txt;C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\CMakeLists.txt;C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\CMake_SDKs_x64\iothub_client\samples\iothub_ll_client_sample_amqp_shared\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/AzureIoTSDKs/iothub_client/samples/iothub_ll_client_sample_amqp_shared/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/AzureIoTSDKs -BC:/CMake_SDKs_x64 --check-stamp-file C:/CMake_SDKs_x64/iothub_client/samples/iothub_ll_client_sample_amqp_shared/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/AzureIoTSDKs/iothub_client/samples/iothub_ll_client_sample_amqp_shared/CMakeLists.txt;C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\CMakeLists.txt;C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\CMake_SDKs_x64\iothub_client\samples\iothub_ll_client_sample_amqp_shared\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/AzureIoTSDKs/iothub_client/samples/iothub_ll_client_sample_amqp_shared/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/AzureIoTSDKs -BC:/CMake_SDKs_x64 --check-stamp-file C:/CMake_SDKs_x64/iothub_client/samples/iothub_ll_client_sample_amqp_shared/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/AzureIoTSDKs/iothub_client/samples/iothub_ll_client_sample_amqp_shared/CMakeLists.txt;C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\CMakeLists.txt;C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\CMake_SDKs_x64\iothub_client\samples\iothub_ll_client_sample_amqp_shared\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\iothub_ll_client_sample_amqp_shared.c"  />
+    <ClInclude Include="C:\AzureIoTSDKs\iothub_client\samples\iothub_ll_client_sample_amqp_shared\iothub_ll_client_sample_amqp_shared.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\CMake_SDKs_x64\ZERO_CHECK.vcxproj">
+      <Project>{96662A91-9BBF-3D7E-91BF-53BF9E056B8D}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CMake_SDKs_x64\c-utility\aziotsharedutil.vcxproj">
+      <Project>{28E7422B-4306-3A04-BEC8-68A61308D7D2}</Project>
+      <Name>aziotsharedutil</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CMake_SDKs_x64\iothub_client\iothub_client.vcxproj">
+      <Project>{5321057C-9539-3971-A03A-B42AB9658A4E}</Project>
+      <Name>iothub_client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CMake_SDKs_x64\iothub_client\iothub_client_amqp_transport.vcxproj">
+      <Project>{B6ED3304-FFC4-344E-85DB-9789C4AB5C39}</Project>
+      <Name>iothub_client_amqp_transport</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CMake_SDKs_x64\iothub_client\iothub_client_amqp_ws_transport.vcxproj">
+      <Project>{FB65963C-0890-3559-98EB-A57D53C12D93}</Project>
+      <Name>iothub_client_amqp_ws_transport</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CMake_SDKs_x64\iothub_client\iothub_client_http_transport.vcxproj">
+      <Project>{E247421A-D5A8-3268-9893-4C020FB00DA5}</Project>
+      <Name>iothub_client_http_transport</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CMake_SDKs_x64\iothub_client\iothub_client_mqtt_transport.vcxproj">
+      <Project>{82B999CF-CEEF-301F-9420-1DF46972D6D5}</Project>
+      <Name>iothub_client_mqtt_transport</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CMake_SDKs_x64\iothub_client\iothub_client_mqtt_ws_transport.vcxproj">
+      <Project>{E39C88D7-DBFB-3BDE-8CC4-55618CBD746B}</Project>
+      <Name>iothub_client_mqtt_ws_transport</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CMake_SDKs_x64\uamqp\uamqp.vcxproj">
+      <Project>{70C5EA07-7E20-3EDF-9788-0D26433F6CB0}</Project>
+      <Name>uamqp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CMake_SDKs_x64\umqtt\umqtt.vcxproj">
+      <Project>{8E116862-96ED-39CC-BD6F-AD29696337E9}</Project>
+      <Name>umqtt</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
